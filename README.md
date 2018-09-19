@@ -1,6 +1,11 @@
+# Dense Flow Field
+
 This is a sample code for extrating dense flow field given a video.
 
 Usage:
+```bash
 ./denseFlow_gpu -f test.avi -x tmp/flow_x -y tmp/flow_x -i tmp/image -b 20 -t 1 -d 0 -s 1
-test.avi: input video
-tmp: folder containing RGB images and optical flow images
+```
+
+test.avi    : input video
+tmp         : folder containing RGB images and optical flow images
